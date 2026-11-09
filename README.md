@@ -4,7 +4,7 @@ Migrated **1,309 Arizona substation features** from Oracle Spatial to PostgreSQL
 
 **Result:** 1,309 unique records, 1,309 valid nonempty geometries, and zero key, attribute, timestamp, SRID, or geometry mismatches in the Oracle-to-PostGIS transfer.
 
-![Successful migration and reconciliation](images/committed.png)
+![Successful migration and reconciliation](oracle_migration/images//committed.png)
 
 ## Tools and skills
 
@@ -39,7 +39,7 @@ This distinguishes **geometry validity** from **extraction completeness**: the o
 
 The resulting merged layer uses **MultiPolygon geometry in EPSG:4326**.
 
-![Merged feature count, geometry type, and CRS](images/merged_features.png)
+![Merged feature count, geometry type, and CRS](oracle_migration/images//merged_features.png)
 
 ## Stable source identifiers
 
@@ -67,7 +67,7 @@ END
 
 Prefixes prevent a way and relation with the same numeric identifier from being treated as the same object. The source fields were retained in the local merged GeoPackage.
 
-![Populated OSM keys and source-layer information](images/merged_osm_key.png)
+![Populated OSM keys and source-layer information](oracle_migration/images//merged_osm_key.png)
 
 ## Database mapping
 
@@ -122,7 +122,7 @@ A GiST spatial index is created on the destination geometry column.
 | Valid nonempty PostGIS geometries | 1,309 |
 | Reconciliation mismatches | 0 |
 
-![PostGIS destination and GeoPackage source tables in QGIS](images/postgis_source_table_comparison.png)
+![PostGIS destination and GeoPackage source tables in QGIS](oracle_migration/images//postgis_source_table_comparison.png)
 
 The table comparison documents matching feature counts and access to the destination through QGIS. It is not a spatial alignment measurement.
 
