@@ -1,0 +1,48 @@
+# Local editor settings
+.vscode/
+.idea/
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.pgpass
+pgpass.conf
+tnsnames.ora
+sqlnet.ora
+cwallet.sso
+ewallet.p12
+
+# Source downloads and generated data
+*.pbf
+*.gpkg
+*.gpkg-wal
+*.gpkg-shm
+substations_oracle.json
+
+# QGIS projects and backups (local connection details)
+*.qgz
+*.qgs
+*.qgd
+*.qgz~
+*.qgs~
+*.qgd~
+
+# Database exports and backups
+*.dmp
+*.dump
+*.backup
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

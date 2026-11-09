@@ -1,0 +1,23 @@
+QGIS version: 3.44.15-Solothurn
+QGIS code revision: 44b4ef05178
+Qt version: 5.15.13
+Python version: 3.12.14
+GDAL version: 3.13.3
+GEOS version: 3.15.0-CAPI-1.21.0
+PROJ version: Rel. 9.8.1, April 10th, 2026
+PDAL version: 2.10.0 (git-version: eb9126)
+Algorithm started at: 2026-11-09T01:31:02
+Algorithm 'Merge vector layers' starting…
+Input parameters:
+{ 'ADD_SOURCE_FIELDS' : True, 'CRS' : QgsCoordinateReferenceSystem('EPSG:4326'), 'LAYERS' : ['C:/Users/Research/Documents/oracle_migration/az_substations.gpkg|layername=substation_sites','C:/Users/Research/Documents/oracle_migration/az_substation_lines.gpkg|layername=substation_from_lines'], 'OUTPUT' : 'ogr:dbname=\'C:/Users/Research/Documents/oracle_migration/az_substations.gpkg\' table="substations_merged" (geom)' }
+
+Using specified destination CRS EPSG:4326
+Setting output type to MultiPolygon
+Packaging layer 1/2: az_substations — substation_sites
+Packaging layer 2/2: substation_from_lines
+Execution completed in 0.12 seconds
+Results:
+  OUTPUT: C:/Users/Research/Documents/oracle_migration/az_substations.gpkg|layername=substations_merged
+
+Loading resulting layers
+Algorithm 'Merge vector layers' finished

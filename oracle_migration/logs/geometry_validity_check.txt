@@ -1,0 +1,24 @@
+QGIS version: 3.44.15-Solothurn
+QGIS code revision: 44b4ef05178
+Qt version: 5.15.13
+Python version: 3.12.14
+GDAL version: 3.13.3
+GEOS version: 3.15.0-CAPI-1.21.0
+PROJ version: Rel. 9.8.1, April 10th, 2026
+PDAL version: 2.10.0 (git-version: eb9126)
+Algorithm started at: 2026-11-08T23:44:59
+Algorithm 'Check validity' starting…
+Input parameters:
+{ 'ERROR_OUTPUT' : 'TEMPORARY_OUTPUT', 'IGNORE_RING_SELF_INTERSECTION' : False, 'INPUT_LAYER' : 'C:/Users/Research/Documents/oracle_migration/az_substations.gpkg|layername=substation_sites', 'INVALID_OUTPUT' : 'TEMPORARY_OUTPUT', 'METHOD' : 2, 'VALID_OUTPUT' : 'TEMPORARY_OUTPUT' }
+
+Execution completed in 0.08 seconds
+Results:
+  VALID_OUTPUT: Valid_output_81d4b128_bb44_4c83_947d_8b981f07a890
+  INVALID_OUTPUT: Invalid_output_a437edb4_c215_4467_8fa7_0e1726287df7
+  ERROR_OUTPUT: Error_output_09b90914_a616_4b24_8f17_7a5ac45e7308
+  VALID_COUNT: 26
+  INVALID_COUNT: 0
+  ERROR_COUNT: 0
+
+Loading resulting layers
+Algorithm 'Check validity' finished
